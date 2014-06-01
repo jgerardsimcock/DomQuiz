@@ -1,0 +1,37 @@
+Set up a new project directory called “DomQuiz”: Done
+
+Initialize a git repo: Done
+
+Set up an html5 file named index.html: Done
+
+Write a paragraph element with an id of “question”: Done
+
+Write an input text field with an id of “answer”
+
+Add a button with an id of “submit”
+
+commit
+
+Add a script tag to execute an external js file named dom_quiz.js
+
+Create the dom_quiz.js file.
+
+setup a SIAF and commit
+
+select the #question element and insert the first quiz question
+
+listen on the #submit click and evaluate the #answer
+
+compare the #answer with the correct answer for the question
+
+store player score, and increment if answer is correct
+
+setup a quiz of 5 - 10 questions (commit everytime it works)
+
+display the next question and clear the #answer after every submission
+
+at the end of the quiz, display the player’s final score
+
+when complete, set up a github project named “DomQuiz”
+
+use the git remote command to push your commits to github.  
