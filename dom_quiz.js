@@ -27,14 +27,15 @@ var answerList = [
   ];
 
 
-document.getElementById("question").innerHTML = questionList[i]; 
 
-for (var i = 0; i < questionList.length; i++) 
+document.getElementById("question").innerHTML = questionList[3]; 
+
+submit.onclick = function (){
+  for (var i = 0; i < questionList.length; i++) 
 {
   for( var j =0; j < answerList.length; j++) {
   
 }
-  submit.onclick = function (){
     document.getElementById("answer");
       if (answer = answerList[i]) {
       alert("Right on!");
@@ -47,8 +48,8 @@ for (var i = 0; i < questionList.length; i++)
   }
 ++ questionCount; 
 
-var finalScore = score.answer.length;
-alert(finalScore);
+// var finalScore = score.answer.length;
+// alert(finalScore);
 
 
 })();
