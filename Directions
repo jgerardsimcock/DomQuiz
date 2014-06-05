@@ -35,3 +35,8 @@ at the end of the quiz, display the player’s final score
 when complete, set up a github project named “DomQuiz”
 
 use the git remote command to push your commits to github.  
+
+
+One way hash cannot be decrypted: hash function => algorithm generates some fake text
+
+node md5

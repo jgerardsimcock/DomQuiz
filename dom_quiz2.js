@@ -41,15 +41,12 @@ submit.onclick = function (){
     i++;
   }
 
-  console.log(score);
-
   if(i >= questionList.length){
     body.removeChild(answer);
     body.removeChild(submit);
-    question.innerHTML = "Thanks for playing";
+    question.innerHTML = "Thanks for playing. Your score is " + score;
   } 
 
-  
 }
 
 })();
