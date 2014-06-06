@@ -26,25 +26,25 @@ var answerList = [
   "Groms"
   ];
 
-question.innerHTML = questionList[i]; 
+question.innerHTML = "Let's take a quiz. Hit the submit button to start!" 
 
 submit.onclick = function (){
   if (answer.value == answerList[i]) {
     console.log("Answer is Right");
     answer.value = null;
-    i++;
-    question.innerHTML = questionList[i];
+    i++; //increments question up
+    question.innerHTML = questionList[i]; //set question content to next string in array
     score++;
   } else {
     answer.value = null;
-    question.innerHTML = questionList[i];
+    question.innerHTML = questionList[i]; //set question content to next string in array
     i++;
   }
 
   if(i >= questionList.length){
-    body.removeChild(answer);
-    body.removeChild(submit);
-    question.innerHTML = "Thanks for playing. Your score is " + score;
+    body.removeChild(answer); //removes the input field
+    body.removeChild(submit); //removes the submit button
+    question.innerHTML = "Thanks for playing. Your score is " + score; //removes question and displays final score
   } 
 
 }
